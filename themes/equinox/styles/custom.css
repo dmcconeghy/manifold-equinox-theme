@@ -1,0 +1,19 @@
+/* Test Environment Overrides */
+/* This file contains custom styles for the test environment */
+
+/* Test environment banner */
+.top-bar {
+    background-color: #ff0000 !important;
+}
+
+/* Lime accent color for testing */
+:root {
+    --accent-color: #00FF00;
+}
+
+/* Make it obvious this is test */
+.header-container {
+    border-bottom: 3px solid #00FF00;
+}
+
+/* Add any other test-specific styles here */
