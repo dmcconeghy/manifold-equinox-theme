@@ -1,19 +1,15 @@
-/* Test Environment Overrides */
-/* This file contains custom styles for the test environment */
+/* Test Environment Extra Styling */
+/* Only put things here that can't be set in Manifold admin */
 
-/* Test environment banner */
-.top-bar {
-    background-color: #ff0000 !important;
+/* Add a subtle test watermark */
+body::after {
+    content: "TEST";
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 100px;
+    color: rgba(0,0,0,0.05);
+    z-index: -1;
 }
 
-/* Lime accent color for testing */
-:root {
-    --accent-color: #00FF00;
-}
-
-/* Make it obvious this is test */
-.header-container {
-    border-bottom: 3px solid #00FF00;
-}
-
-/* Add any other test-specific styles here */
+/* Any custom fixes or enhancements */
