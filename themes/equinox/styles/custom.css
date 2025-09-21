@@ -8,8 +8,7 @@ body::after {
     bottom: 20px;
     right: 20px;
     font-size: 100px;
-    color: rgba(0,0,0,0.05);
-    z-index: -1;
+    color: rgba(255,0,0,0.3);  /* Changed to red, 30% opacity */
+    z-index: 9999;  /* Changed from -1 to 9999 to bring to front */
+    pointer-events: none;  /* Add this so it doesn't block clicks */
 }
-
-/* Any custom fixes or enhancements */
