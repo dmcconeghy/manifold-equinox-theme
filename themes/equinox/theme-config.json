@@ -1,5 +1,5 @@
 {
-  "theme": {
+  "production_theme": {
     "strings": {
       "signup_terms_header": "First things first...",
       "signup_terms_one": "When you create an account, we will collect and store your name and email address for account management purposes.",
@@ -25,6 +25,32 @@
       "header_background_color": "#ffffff"
     }
   },
+  "test_theme": {
+    "strings": {
+      "signup_terms_header": "First things first...",
+      "signup_terms_one": "When you create an account, we will collect and store your name and email address for account management purposes.",
+      "signup_terms_two": "This site will also store the annotations and highlights you create on texts, and it will keep track of content that you've starred. Depending on its configuration, this site may store anonymous data on how the site is being used.",
+      "data_use_header": "What data does Manifold store about me?",
+      "data_use_copy": "## Internal Analytics\nManifold stores anonymous data about what pages users access and how much time they spend on those pages. There is no personally identifiable information stored in relation to usage data.\n\n## Annotations and Comments\nWhen you create a highlight, annotate a text, or write a comment, Manifold stores it in the database.\n\n## Reading Groups\nManifold stores basic information about each reading group, the content that has been collected in the group, and the group's members.\n",
+      "cookies_banner_header": "Manifold uses cookies",
+      "cookies_banner_copy": "We use cookies to analyze our traffic. Please decide if you are willing to accept cookies from our website. You can change this setting anytime in [Privacy Settings](/privacy)."
+    },
+    "branding": {
+      "logo_styles": null,
+      "typekit_id": null,
+      "header_offset": "5",
+      "top_bar_text": "TEST ENVIRONMENT - DO NOT USE FOR PRODUCTION",
+      "top_bar_url": "https://equinoxreligionlibrary.com/",
+      "top_bar_color": "#ff0000",
+      "top_bar_mode": "enforced"
+    },
+    "colors": {
+      "accent_color": "#00FF00",
+      "header_foreground_color": "#3033cc",
+      "header_foreground_active_color": "#E5391A",
+      "header_background_color": "#ffffff"
+    }
+  },
   "custom_css": null,
-  "notes": "Exported from production on 2025-09-19"
+  "notes": "Updated 2025-09-21: Added test environment configuration with lime accent"
 }
